@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: 450px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    film-title {
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    p {
+      font-family: Georgia, serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8 px;
+      padding-right: 8 px;
+      padding-inline: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jim Carrey</h1>
+  <div class="container">
+    <div class="row">
+
+      <div class="column">
+        <img src="images/truman.jpg" alt="The Truman Show">
+        <h3>The Truman Show</h3>
+        <p>
+          An insurance salesman discovers his whole life is actually a reality
+          TV show.
+        </p>
+        <hr>
+        <p>
+          <film-title>The Truman Show</film-title>
+          is a 1998 American psychological comedy-drama film
+          directed by Peter Weir, produced by Scott Rudin, Andrew Niccol,
+          Edward S. Feldman, and Adam Schroeder, and written by Niccol. The
+          film stars Jim Carrey as Truman Burbank, a man who grew up living an
+          ordinary life that—unbeknownst to him—takes place on a large set
+          populated by actors for a television show about him. Eventually, he
+          discovers the truth and decides to escape. Additional roles are
+          performed by Laura Linney, Noah Emmerich, Natascha McElhone, Holland
+          Taylor, Ed Harris, Paul Giamatti and Brian Delate.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="images/yes.jpg" alt="Yes Man">
+        <h3>Yes Man</h3>
+        <p>
+          A man challenges himself to say "yes" to everything.
+        </p>
+        <hr>
+        <p>
+          <film-title>Yes Man</film-title>
+          is a 2008 comedy film directed by Peyton Reed, written by
+          Nicholas Stoller, Jarrad Paul, and Andrew Mogel and starring Jim
+          Carrey and co-starring Zooey Deschanel. The film is based loosely on
+          the 2005 memoir of the same name by humorist Danny Wallace, who also
+          makes a cameo appearance in the film.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="images/eternal.jpg" alt="Eternal Sunshine of the Spotless Mind">
+        <h3>Eternal Sunshine of the Spotless Mind</h3>
+        <p>
+          When their relationship turns sour, a couple undergoes a medical
+          procedure to have each other erased from their memories.
+        </p>
+        <hr>
+        <p>
+          <film-title>Eternal Sunshine of the Spotless Mind</film-title>
+          is a 2004 American comedy-drama film written by Charlie Kaufman and
+          directed by Michel Gondry. It follows an estranged couple who have
+          erased each other from their memories. Pierre Bismuth created the
+          story with Kaufman and Gondry. The ensemble cast includes Jim Carrey,
+          Kate Winslet, Kirsten Dunst, Mark Ruffalo, Elijah Wood, and Tom
+          Wilkinson. The title of the film is a quotation from the 1717 poem
+          Eloisa to Abelard by Alexander Pope.
+          <br>
+          <br>
+          The film uses elements of psychological thriller, science fiction and
+          a nonlinear narrative to explore the nature of memory and romantic
+          love
+        </p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
